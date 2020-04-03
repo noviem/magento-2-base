@@ -13,7 +13,7 @@ class Html
      * @param string $html
      * @return string
      */
-    public function removeHtmlAttributes(string $html,array $attributes): string
+    public function removeAttributes(string $html,array $attributes): string
     {
         libxml_use_internal_errors(true);
 
